@@ -1,0 +1,47 @@
+name: README QA
+
+on:
+  pull_request:
+    paths:
+      - README.md
+      - .github/workflows/*.yml
+      - .markdownlint-cli2.jsonc
+      - .lycheeignore
+  push:
+    paths:
+      - README.md
+      - .github/workflows/*.yml
+      - .markdownlint-cli2.jsonc
+      - .lycheeignore
+
+permissions:
+  contents: read
+
+jobs:
+  markdown:
+    name: Markdown lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v22
+        with:
+          config: .markdownlint-cli2.jsonc
+          globs: |
+            README.md
+
+  links:
+    name: Link check
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Check README links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --verbose README.md
+          jobSummary: true
+          token: ${{ secrets.GITHUB_TOKEN }}

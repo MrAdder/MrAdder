@@ -1,35 +1,64 @@
-<h2 align="left">Hi 👋, I'm Daniel</h2>
+# Daniel
 
-###
+<table>
+  <tr>
+    <td valign="top">
+      <p><strong>Backend Developer | Automation | Community Systems</strong></p>
+      <p>
+        I build practical tools, internal automation, and reliable web applications with a focus on maintainable backend systems.
+      </p>
+      <p>
+        My main stack includes Python, PHP, Laravel, and MySQL, and I enjoy creating software that supports real operational and community needs.
+      </p>
+    </td>
+    <td width="170" align="center">
+      <img width="150" src="https://i.imgur.com/o4GZslX.png" alt="Daniel profile picture" />
+    </td>
+  </tr>
+</table>
 
-<img align="right" height="150" src="https://i.imgur.com/o4GZslX.png"  />
+## Current Roles
 
-### Roles
+- S1 Controller at [VATSIM UK](https://www.vatsim.uk/)
+- Contributor at [VATSIM UK](https://www.vatsim.uk/)
 
-- <b>S1 Controller</b> @ VATSIM UK
-- <b>Contributer</b> @ VATSIM UK 
+## Focus Areas
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Filament-1E293B?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+- Backend development with PHP, Laravel, and MySQL
+- Automation and internal tooling with Python and GitHub Actions
+- Community systems and bot development with Discord.py
+
+## Featured Projects
+
+<p align="center">
+  <a href="https://github.com/MrAdder/uk-controller-api">
+    <img src="./profile/pin-uk-controller-api.svg" alt="uk-controller-api repository card" />
+  </a>
+  <a href="https://github.com/MrAdder/core">
+    <img src="./profile/pin-core.svg" alt="core repository card" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/MrAdder/filament-logger">
+    <img src="./profile/pin-filament-logger.svg" alt="filament-logger repository card" />
+  </a>
 </p>
 
-###
+## Tech Stack
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/MrAdder/MrAdder/refs/heads/main/profile/stats.svg" height="150" alt="stats graph"  />
-  <img src="https://raw.githubusercontent.com/MrAdder/MrAdder/refs/heads/main/profile/top-langs.svg" height="150" alt="languages graph"  />
-</div>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/Filament-1E293B?style=for-the-badge&logo=laravel&logoColor=white" alt="Filament" />
+  <img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.py" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+</p>
 
-###
+## GitHub Overview
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/MrAdder/MrAdder/output/snake.svg" alt="Snake animation" />
-
-###
+<p align="center">
+  <img src="./profile/stats.svg" height="150" alt="GitHub stats" />
+  <img src="./profile/top-langs.svg" height="150" alt="Top languages" />
+</p>
